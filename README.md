@@ -1,6 +1,6 @@
-# Stelligent Mini Project
+# Stelligent Mini Project - Go
 
-Provision a system running a web server.
+Provision a system running a Go web server.
 
 ## Building the Docker Image
 
@@ -13,7 +13,7 @@ $ make
 
 ## Running the Docker Image
 
-The image has been pushed to the docker hub, and can be run on a docker-enabled system like:
+The image has not been pushed to the docker hub, but once pushed it can be run like this:
 
 ```console
 $ docker run -it --rm -P -p 80:8080 josepharceneaux/go-server:latest
