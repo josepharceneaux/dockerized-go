@@ -13,7 +13,7 @@ $ make
 
 ## Running the Docker Image
 
-The image has not been pushed to the docker hub, but once pushed it can be run like this:
+This image has not been pushed to the docker hub, but once pushed it can be run like this:
 
 ```console
 $ docker run -it --rm -P -p 80:8080 josepharceneaux/go-server:latest
